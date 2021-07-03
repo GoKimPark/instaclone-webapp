@@ -65,8 +65,7 @@ const NavBar = () => (
       <Item md={4} sm={4} xs={4}>
         <Box 
           display="flex"
-          justifyContent="right"
-          alignItems="center"
+          justifyContent="flex-end"
         >
           <IconBox><HomeOutlined /></IconBox>
           <IconBox><SendOutlined /></IconBox>
